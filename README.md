@@ -26,6 +26,8 @@
 <h2 id="examples">Examples</h2>
 <img src="https://raw.githubusercontent.com/WitherCubes/Emojam/master/assets/example.gif"></img>
 
+**Ignore the fact that I don't know how to make gifs using ffmpeg and using gifs.com for making this gif with watermark.** 
+
 - You can find the command and preview for every emoji and gif from the link below.
 - (Future me, add the links here)
 
