@@ -82,6 +82,105 @@ client.on("messageCreate", message => {
   if (message.content === prefix + "e-anime-shock") {
     message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/anime/shock.png");
   }
+  if (message.content === prefix + "e-bcat-angry") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/angry.png");
+  }
+  if (message.content === prefix + "e-bcat-heart") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/heart.png");
+  }
+  if (message.content === prefix + "e-bcat-knife") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/knife.png");
+  }
+  if (message.content === prefix + "e-bcat-meataww") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/meataww.png");
+  }
+  if (message.content === prefix + "e-bcat-melt") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/melt.png");
+  }
+  if (message.content === prefix + "e-bcat-pat") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/pat.png");
+  }
+  if (message.content === prefix + "e-bcat-popcorn") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/popcorn.png");
+  }
+  if (message.content === prefix + "e-bcat-worried") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/worried.png");
+  }
+  if (message.content === prefix + "e-brave-tan-angry") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/angry.png");
+  }
+  if (message.content === prefix + "e-brave-tan-dab") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/dab.png");
+  }
+  if (message.content === prefix + "e-brave-tan-excited") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/excited.png");
+  }
+  if (message.content === prefix + "e-brave-tan-headpat") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/headpat.png");
+  }
+  if (message.content === prefix + "e-brave-tan-hi") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/hi.png");
+  }
+  if (message.content === prefix + "e-brave-tan-love") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/love.png");
+  }
+  if (message.content === prefix + "e-brave-tan-meow") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/meow.png");
+  }
+  if (message.content === prefix + "e-brave-tan-scared") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/scared.png");
+  }
+  if (message.content === prefix + "e-brave-tan-sleep") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/sleep.png");
+  }
+  if (message.content === prefix + "e-brave-tan-think") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/think.png");
+  }
+  if (message.content === prefix + "e-brave-tan-tired") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/tired.png");
+  }
+  if (message.content === prefix + "e-muta-1") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/muta/1.png");
+  }
+  if (message.content === prefix + "e-muta-2") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/muta/2.png");
+  }
+  if (message.content === prefix + "e-muta-3") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/muta/3.png");
+  }
+  if (message.content === prefix + "e-pepe-ban") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/ban.png");
+  }
+  if (message.content === prefix + "e-pepe-cross") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/cross.png");
+  }
+  if (message.content === prefix + "e-pepe-gun") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/gun.png");
+  }
+  if (message.content === prefix + "e-pepe-happy") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/happy.png");
+  }
+  if (message.content === prefix + "e-pepe-high") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/high.png");
+  }
+  if (message.content === prefix + "e-pepe-love") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/love.png");
+  }
+  if (message.content === prefix + "e-pepe-monkas") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/monkas.png");
+  }
+  if (message.content === prefix + "e-pepe-pepega") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/pepega.png");
+  }
+  if (message.content === prefix + "e-pepe-spit") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/spit.png");
+  }
+  if (message.content === prefix + "e-pepe-wow") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/wow.png");
+  }
+  if (message.content === prefix + "e-pepe-wowcry") {
+    message.channel.send("https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/wowcry.png");
+  }
 })
 
 client.on('ready', async () => {
