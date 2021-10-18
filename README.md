@@ -14,9 +14,7 @@
 </p>
 
 <h2 id="about">About</h2>
-<p>This is a discord bot that posts custom emoji and gifs. You may have many questions like why is the code in a single file and so big, why are you so stupid and added hard to remember commands for just simple gifs. The answer to all this is a single quote:<p>
-
-> "Don't try hard, try stupid" - Samuel Mariña AKA Samuel Miller
+<p>This is a discord bot that posts custom emoji and gifs. This bot uses slash commands, so be familiar with slash commands.<p>
 
 <h2 id="features">Features</h2>
 
@@ -28,16 +26,18 @@
 
 **Ignore the fact that I don't know how to make gifs using ffmpeg and using gifs.com for making this gif with watermark.** 
 
-- You can find the command and preview for every emoji and gif from the link below.
-- (Future me, add the links here)
+- You can find the command for every emoji and gif using ```/help all```.
+- The example GIF above is a old example and it uses a prefix, now the bot uses slash commands, don't get confused.
+- Previews will be added in the future.
 
 <h2 id="installation">Installation</h2>
 
 - Clone or download the zip of the repository.
 - Run ```npm install``` to install all the dependencies.
-- Add your discord bot token in ```.env```.
-- Change the bot prefix from ```$``` to your wish in line ```const prefix = "$";``` in ```index.js```.
-- Run ```node .```, and you are ready to go.
+- Rename ```.env.sample``` as ```.env``` and add your discord bot token and your server guild id in ```.env```.
+- Invite the bot using the following link: ```https://discord.com/oauth2/authorize?client_id=YOURCLIENTID&permissions=-2147095488&scope=bot%20applications.commands```
+- Change YOURCLIENTID with your bot's client id.
+- Run ```node .```, and you are ready to go. If you are using replit to host, click the Run button.
 
 <h2 id="#license">License</h2>
 
