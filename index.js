@@ -9,6 +9,8 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`)
 
+  client.user.setActivity('withercubes.xyz')
+
 const guildId = (process.env.GUILDID) //.env
 const guild = client.guilds.cache.get(guildId)
 
@@ -22,11 +24,6 @@ if (guild) {
   commands?.create({
     name: 'ping',
     description: 'Replies with pong',
-  })
-
-  commands?.create({
-    name: 'raaja',
-    description: 'Raaja Big Brain CopyPasta',
   })
 
   commands?.create({
@@ -245,42 +242,6 @@ client.on('interactionCreate', async (interaction) => {
       ephemeral: true
     })
   }
-  else if (commandName === 'raaja') {
-    interaction.reply({
-      content: "I’d just like to interject for a moment. What you’re refering to as Raaja, is in fact, Big Brain/Raaja, or as I’ve recently taken to calling it, Big Brain plus Raaja. Raaja is not an mastermind unto itself, but rather another useless component of a fully functioning Big Brain system made useful by the Big Brain muscles, neurons and immunity system components comprising a full Big Brain human as defined by CHADJAY.",
-      ephemeral: false
-    })
-  }
-})
-
-client.on('ready', async () => {
-    let statuses = [
-        `Mr Beast`,
-        `3L0N MU$K`,
-        `PewDiePie`,
-        `SomeOrdinaryGamers`,
-        `Jeff Bezos`,
-        `Bitcoin Price`,
-        `Monero Price`,
-        `DogeCoin Price`,
-        `LiteCoin Price`,
-        `Mark Zuckemburg`,
-        `Your Money Balance`,
-        `Your Mom`,
-        `Linux Market Share`,
-        `BSOD Screen of Windows 10`,
-        `Windows XP source code`,
-        `Pokemon`,
-        `Death Note`,
-        `Beyblade`
-    ]
-
-    setInterval(function () {
-        let status = statuses[Math.floor(Math.random() * statuses.length)];
-        client.user.setActivity(status, {
-            type: "WATCHING",
-        })
-    }, 10000)
 })
 
 keepAlive()
