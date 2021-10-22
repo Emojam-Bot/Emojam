@@ -35,6 +35,48 @@ if (guild) {
         description: 'Help category',
         required: true,
         type: Discord.Constants.ApplicationCommandOptionTypes.STRING,
+        choices: [
+          {
+            name: 'all',
+            value: 'all',
+          },
+          {
+            name: 'amgus',
+            value: 'amgus',
+          },
+          {
+            name: 'anime',
+            value: 'anime',
+          },
+          {
+            name: 'bcat',
+            value: 'bcat',
+          },
+          {
+            name: 'brave-tan',
+            value: 'brave-tan',
+          },
+          {
+            name: 'hello-wumpus',
+            value: 'hello-wumpus',
+          },
+          {
+            name: 'muta',
+            value: 'muta',
+          },
+          {
+            name: 'pepe',
+            value: 'pepe',
+          },
+          {
+            name: 'text',
+            value: 'text',
+          },
+          {
+            name: 'wumpus-nitro-elite',
+            value: 'wumpus-nitro-elite',
+          },
+        ],
       },
     ],
   })
@@ -48,6 +90,32 @@ if (guild) {
         description: 'Category of emoji',
         required: true,
         type: Discord.Constants.ApplicationCommandOptionTypes.STRING,
+        choices: [
+          {
+            name: 'anime',
+            value: 'anime',
+          },
+          {
+            name: 'bcat',
+            value: 'bcat',
+          },
+          {
+            name: 'brave-tan',
+            value: 'brave-tan',
+          },
+          {
+            name: 'muta',
+            value: 'muta',
+          },
+          {
+            name: 'pepe',
+            value: 'pepe',
+          },
+          {
+            name: 'text',
+            value: 'text',
+          },
+        ],
       },
       {
         name: 'name',
@@ -67,6 +135,36 @@ if (guild) {
         description: 'Category of GIF',
         required: true,
         type: Discord.Constants.ApplicationCommandOptionTypes.STRING,
+        choices: [
+          {
+            name: 'amgus',
+            value: 'amgus',
+          },
+          {
+            name: 'anime',
+            value: 'anime',
+          },
+          {
+            name: 'bcat',
+            value: 'bcat',
+          },
+          {
+            name: 'hello-wumpus',
+            value: 'hello-wumpus',
+          },
+          {
+            name: 'muta',
+            value: 'muta',
+          },
+          {
+            name: 'pepe',
+            value: 'pepe',
+          },
+          {
+            name: 'wumpus-nitro-elite',
+            value: 'wumpus-nitro-elite',
+          },
+        ],
       },
       {
         name: 'name',
