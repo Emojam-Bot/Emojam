@@ -192,91 +192,91 @@ client.on('interactionCreate', async (interaction) => {
   else if (commandName === 'emoji' && options.getString('category') === 'anime') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/anime/${num1}.png`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/emoji/anime/${num1}.png`,
       ephemeral: false
     })
   }
   else if (commandName === 'emoji' && options.getString('category') === 'bcat') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/blobcat/${num1}.png`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/emoji/blobcat/${num1}.png`,
       ephemeral: false
     })
   }
   else if (commandName === 'emoji' && options.getString('category') === 'brave-tan') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/brave-tan/${num1}.png`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/emoji/brave-tan/${num1}.png`,
       ephemeral: false
     })
   }
   else if (commandName === 'emoji' && options.getString('category') === 'muta') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/muta/${num1}.png`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/emoji/muta/${num1}.png`,
       ephemeral: false
     })
   }
   else if (commandName === 'emoji' && options.getString('category') === 'pepe') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/pepe/${num1}.png`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/emoji/pepe/${num1}.png`,
       ephemeral: false
     })
   }
   else if (commandName === 'emoji' && options.getString('category') === 'text') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/emoji/text/${num1}.png`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/emoji/text/${num1}.png`,
       ephemeral: false
     })
   }
   else if (commandName === 'gif' && options.getString('category') === 'amgus') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/gif/among-us/${num1}.gif`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/gif/among-us/${num1}.gif`,
       ephemeral: false
     })
   }
   else if (commandName === 'gif' && options.getString('category') === 'anime') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/gif/anime/${num1}.gif`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/gif/anime/${num1}.gif`,
       ephemeral: false
     })
   }
   else if (commandName === 'gif' && options.getString('category') === 'bcat') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/gif/blobcat/${num1}.gif`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/gif/blobcat/${num1}.gif`,
       ephemeral: false
     })
   }
   else if (commandName === 'gif' && options.getString('category') === 'hello-wumpus') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/gif/hello-wumpus/${num1}.gif`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/gif/hello-wumpus/${num1}.gif`,
       ephemeral: false
     })
   }
   else if (commandName === 'gif' && options.getString('category') === 'muta') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/gif/muta/${num1}.gif`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/gif/muta/${num1}.gif`,
       ephemeral: false
     })
   }
   else if (commandName === 'gif' && options.getString('category') === 'pepe') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/gif/pepe/${num1}.gif`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/gif/pepe/${num1}.gif`,
       ephemeral: false
     })
   }
   else if (commandName === 'gif' && options.getString('category') === 'wumpus-nitro-elite') {
     const num1 = options.getString('name')
     interaction.reply({
-      content: `https://raw.githubusercontent.com/WitherCubes/Emojam/master/gif/wumpus-nitro-elite/${num1}.gif`,
+      content: `https://raw.githubusercontent.com/Emojam-Bot/assets/master/gif/wumpus-nitro-elite/${num1}.gif`,
       ephemeral: false
     })
   }

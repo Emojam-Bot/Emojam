@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/WitherCubes/Emojam/master/assets/logo.png"></img>
+<img src="https://raw.githubusercontent.com/Emojam-Bot/Emojam/master/img/logo.png"></img>
 <h3>Custom Emoji and GIF bot built with <a href=https://github.com/discordjs/discord.js>discord.js</a></h3>
 
 <p>
@@ -22,7 +22,7 @@
 - Thats it I think (maybe more in the future).
 
 <h2 id="examples">Examples</h2>
-<img src="https://raw.githubusercontent.com/WitherCubes/Emojam/master/assets/example.gif"></img>
+<img src="https://raw.githubusercontent.com/Emojam-Bot/Emojam/master/img/example.gif"></img>
 
 **Ignore the fact that I don't know how to make gifs using ffmpeg and using gifs.com for making this gif with watermark.** 
 
