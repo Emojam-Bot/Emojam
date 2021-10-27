@@ -41,4 +41,4 @@
 
 <h2 id="#license">License</h2>
 
-Released under the [GPL-3.0 License](https://github.com/WitherCubes/Emojam/blob/master/LICENSE).
+Released under the [GPL-3.0 License](https://github.com/Emojam-Bot/Emojam/blob/master/LICENSE).
