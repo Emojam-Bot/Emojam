@@ -1,6 +1,21 @@
+<div align="center">
 <img src="https://raw.githubusercontent.com/Emojam-Bot/Emojam/master/img/logo.png"></img>
 <h3>Custom Emoji and GIF bot built with <a href=https://github.com/discordjs/discord.js>discord.js</a></h3>
 
+<a href="https://github.com/Emojam-Bot/Emojam/blob/master/LICENSE">
+<img src="https://img.shields.io/github/license/Emojam-Bot/Emojam?color=important&style=flat-square" alt="License">
+</a>
+
+<img src="https://img.shields.io/github/repo-size/Emojam-Bot/Emojam?style=flat-square" alt="Repo size">
+
+<a href="https://github.com/Emojam-Bot/Emojam/issues">
+<img src="https://img.shields.io/github/issues/Emojam-Bot/Emojam?color=ff0000&style=flat-square" alt="Open issues">
+</a>
+
+<a href="https://github.com/Emojam-Bot/Emojam/pulse">
+<img src="https://img.shields.io/github/last-commit/Emojam-Bot/Emojam?color=blueviolet&style=flat-square" alt="Last commit">
+</a>
+</br>
 <p>
   <a href="#about">About</a>
   •
@@ -12,6 +27,7 @@
   •
   <a href="#license">License</a>
 </p>
+</div>
 
 <h2 id="about">About</h2>
 <p>This is a discord bot that posts custom emoji and gifs. This bot uses slash commands, so be familiar with slash commands.<p>
